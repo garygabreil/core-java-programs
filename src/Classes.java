@@ -18,12 +18,19 @@
 
 
 
-class B{
+class B{ //outer class
 	public static void main(String[] args) {
 		
 		
 		System.out.println("Main method class B");
 	}
+	class wss{  //nested class
+		
+	}
+}
+
+class C {
+	
 }
 
 public class Classes {
